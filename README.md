@@ -1,4 +1,4 @@
-# 🧠 TalentRank AI v3.0 — AI-Powered Resume Screening System
+# 🧠 TalentRank AI — AI-Powered Resume Screening System
 
 > **Upgraded from TF-IDF → Transformer Embeddings (all-MiniLM-L6-v2)**
 > Fully offline · No API keys · Suitable for AI/ML college project viva
