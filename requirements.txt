@@ -1,0 +1,29 @@
+# ─────────────────────────────────────────────────────────
+#  TalentRank AI v3.0 — Requirements
+#  Install: pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────
+
+# Web Framework
+flask>=2.3.0
+
+# AI / NLP — Transformer Embeddings (Primary AI Engine)
+sentence-transformers>=2.7.0      # all-MiniLM-L6-v2 model
+torch>=2.0.0                      # PyTorch backend (CPU-only is fine)
+transformers>=4.40.0              # Hugging Face Transformers
+
+# ML Utilities
+scikit-learn>=1.4.0               # cosine_similarity, TF-IDF fallback
+numpy>=1.26.0
+
+# PDF Parsing (Resume Upload)
+PyMuPDF>=1.24.0                   # fitz — fast, reliable PDF text extraction
+
+# PDF Report Generation
+reportlab>=4.1.0                  # Professional PDF reports
+
+# Data Export
+pandas>=2.2.0                     # DataFrame for Excel/CSV export
+openpyxl>=3.1.0                   # Excel (.xlsx) support for pandas
+
+# NLP Text Processing
+nltk>=3.8.0                       # Tokenization, stopwords
